@@ -1,5 +1,5 @@
 import { HeaderComponent } from './header/header.component';
-import { ShoppingList } from './shopping-list/shopping-list.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -20,7 +20,7 @@ import { RecipeItemComponent } from './recipes/recipe-list/recipe-item/recipe-it
     RecipeListComponent,
     RecipeDetailComponent,
     RecipeItemComponent,
-    ShoppingList,
+    ShoppingListComponent,
     ShoppingEditComponent
   ],
   imports: [

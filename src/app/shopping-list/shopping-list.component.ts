@@ -1,10 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
     selector: 'app-shopping-list',
     templateUrl: './shopping-list.component.html'
 })
 
-export class ShoppingList{
+export class ShoppingListComponent implements OnInit {
+    ingredients = [];
+
+    ngOnInit(){
+
+    }
 
 }
